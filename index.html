@@ -3,28 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Thai Bang HOANG</title>
     <style>
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
-            background: #2c2f33;
+            background: #1e1e1e;
             overflow: hidden;
+            font-family: Arial, sans-serif;
         }
         .header {
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
-            background: rgba(0, 0, 0, 0.8);
+            background: rgba(0, 0, 0, 0.85);
             color: white;
-            padding: 10px 20px;
+            padding: 12px 20px;
             z-index: 100;
             display: flex;
-            justify-content: space-between;
             align-items: center;
+        }
+        .download-btn {
+            background: #58a6ff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .download-btn:hover {
+            background: #1f6feb;
+            transform: translateY(-2px);
+        }
+        object {
+            width: 100%;
+            height: 100vh;
+            border: none;
         }
     </style>
 </head>
-<body></body>
+<body>
+    <object data="./CV_Thai_Bang_HOANG.pdf" type="application/pdf">
+        <p>Impossible d'afficher le PDF. 
+           <a href="./CV_Thai_Bang_HOANG.pdf" download>Télécharger ici</a>
+        </p>
+    </object>
+</body>
 </html>
